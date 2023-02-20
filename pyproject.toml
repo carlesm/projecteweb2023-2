@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "projecteweb2023-2"
+version = "0.1.0"
+description = ""
+authors = ["Carles Mateu <carlesm@carlesm.com>"]
+readme = "README.md"
+packages = [{include = "projecteweb2023_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+urllib3 = "^1.26.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
